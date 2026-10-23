@@ -1,4 +1,4 @@
-// Agents of the KIWIBYTE pipeline. Every field comes from D:/YouTube/README.md (pipeline table)
+// Agents of the KIWIBYTE pipeline. Every field comes from the YouTube pipeline README (pipeline table)
 // and the Hermes profile configs (model per profile). Nothing here is invented.
 export interface Agent {
   id: string;
