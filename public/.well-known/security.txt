@@ -1,0 +1,5 @@
+# Signalement de vulnérabilité pour ce site statique (aucune adresse e-mail personnelle).
+# Merci de passer par GitHub (message privé de sécurité sur le dépôt du site, ou profil ci-dessous).
+Contact: https://github.com/yaskaa-lgtm
+Expires: 2027-10-23T00:00:00.000Z
+Preferred-Languages: fr, en

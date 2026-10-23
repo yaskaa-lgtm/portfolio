@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0F1115" />
+    <title>Captox — KIWIBYTE, agents I.A. et vidéos automatisées</title>
+    <meta
+      name="description"
+      content="Portfolio de Captox, créateur de KIWIBYTE : une chaîne YouTube et TikTok sur l'I.A. et l'open source, produite par un système d'agents I.A. orchestré avec Hermes Agent."
+    />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <script type="module" src="./src/main.ts"></script>
+  </head>
+  <body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+
+    <canvas class="gl" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__dot"></span></div>
+
+    <header class="top">
+      <a class="brand" href="#hero" aria-label="Captox, retour en haut">
+        <img class="brand__logo" src="./src/assets/img/kiwi-96.png" width="36" height="35" alt="" />
+        <span class="brand__name">Captox</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#projets">Projets</a>
+        <a href="#agents">Agents</a>
+        <a href="#outils">Outils</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="counter" aria-hidden="true"><span class="counter__now">01</span><span class="counter__sep">/</span><span>06</span></p>
+    </header>
+
+    <main id="contenu">
+      <!-- 01 HERO -->
+      <section id="hero" class="hero" data-index="01" aria-labelledby="hero-title">
+        <div class="hero__fallback" aria-hidden="true">
+          <img src="./src/assets/img/kiwi-226.webp" width="226" height="222" alt="" />
+        </div>
+        <div class="hero__inner">
+          <p class="kicker"><span>Portfolio</span><span>Captox</span><span>KIWIBYTE</span></p>
+          <h1 id="hero-title" class="hero__title">
+            <span class="line"><span class="line__in">Des agents I.A.</span></span>
+            <span class="line"><span class="line__in">qui fabriquent</span></span>
+            <span class="line"><span class="line__in">des <em class="accent">vidéos.</em></span></span>
+          </h1>
+          <p class="hero__lede reveal">
+            Je construis KIWIBYTE, une chaîne YouTube et TikTok francophone sur l'I.A., l'open source et les nouvelles
+            technologies. Derrière chaque vidéo&nbsp;: un orchestrateur, des agents spécialisés et des contrôles par script
+            avant chaque étape.
+          </p>
+          <div class="hero__actions reveal">
+            <a class="btn" href="#projets">Voir les projets</a>
+            <a class="btn btn--ghost" href="https://github.com/yaskaa-lgtm" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+        <p class="figcap hero__fig" aria-hidden="true">fig. 01 — l'emblème KIWIBYTE recomposé en particules (WebGL, GLSL)</p>
+        <p class="scrollhint" aria-hidden="true"><span></span>Faire défiler</p>
+      </section>
+
+      <!-- 02 A PROPOS -->
+      <section id="apropos" class="about" data-index="02" aria-labelledby="about-title">
+        <div class="about__inner">
+          <p class="label">À propos</p>
+          <h2 id="about-title" class="h2 split">Automatiser tout ce qui peut l'être. Vérifier tout ce qui sera <em class="accent">affirmé.</em></h2>
+          <div class="about__cols">
+            <p class="reveal">
+              Je m'appelle Captox. Mon terrain&nbsp;: l'I.A., l'open source et les outils qu'on peut faire tourner chez soi.
+              KIWIBYTE est mon laboratoire&nbsp;: chaque vidéo passe par une chaîne de production que j'ai assemblée, du
+              choix du sujet jusqu'au brouillon prêt à publier.
+            </p>
+            <p class="reveal">
+              Règle de la maison&nbsp;: aucun chiffre non sourcé. Un script bloque le texte avant la voix si une donnée
+              n'apparaît pas dans les sources. Et la publication reste manuelle&nbsp;: la machine prépare, je décide.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 PROJETS -->
+      <section id="projets" class="projects" data-index="03" aria-labelledby="projects-title">
+        <div class="projects__intro">
+          <p class="label">Projets</p>
+          <h2 id="projects-title" class="h2 split">Cinq chantiers, une même <span class="nobr"><em class="accent">obsession</em>&nbsp;:</span> des preuves.</h2>
+        </div>
+
+        <div class="projects__track">
+          <div class="projects__sticky">
+            <!-- P1 -->
+            <article class="panel panel--1" aria-labelledby="p1-title">
+              <div class="panel__grid">
+                <div class="panel__text">
+                  <p class="tag"><span class="tag__n">01</span> Chaîne YouTube / TikTok</p>
+                  <h3 id="p1-title" class="panel__title">KIWIBYTE</h3>
+                  <p class="panel__lede">
+                    Une chaîne quasi automatisée&nbsp;: des idées vérifiées, un script, une voix de synthèse clonée, un rendu
+                    animé, une miniature, puis un envoi en brouillon. Vidéos longues de 5-6&nbsp;min et shorts de 35-45&nbsp;s.
+                  </p>
+                  <ol class="pipeline">
+                    <li><span>1</span>Sujet <em>veille quotidienne</em></li>
+                    <li><span>2-3</span>Recherche + script <em>lint bloquant</em></li>
+                    <li><span>4</span>Voix off <em>VoiceStudio</em></li>
+                    <li><span>5-6</span>Scènes + rendu <em>HyperFrames</em></li>
+                    <li><span>7</span>Miniature <em>variantes A/B</em></li>
+                    <li><span>8</span>Titre / SEO <em>publication.md</em></li>
+                    <li><span>9</span>Contrôle <em>RAPPORT.md</em></li>
+                  </ol>
+                </div>
+                <figure class="screen">
+                  <div class="screen__frame">
+                    <video class="clip" muted playsinline loop preload="none" poster="./media/clip-mcp.webp" data-src="./media/clip-mcp.mp4" aria-label="Extrait muet d'une vidéo KIWIBYTE sur le protocole M.C.P."></video>
+                  </div>
+                  <figcaption class="figcap">Extrait réel d'un rendu de la chaîne (vidéo sur le protocole M.C.P.), 1920×1080 à l'origine, sans le son.</figcaption>
+                </figure>
+              </div>
+            </article>
+
+            <!-- P2 -->
+            <article class="panel panel--2" aria-labelledby="p2-title">
+              <div class="panel__grid panel__grid--rev">
+                <div class="panel__text">
+                  <p class="tag"><span class="tag__n">02</span> Système multi-agents</p>
+                  <h3 id="p2-title" class="panel__title">Un orchestrateur, sept <em class="accent">spécialistes</em></h3>
+                  <p class="panel__lede">
+                    Construit avec Hermes Agent. Tony orchestre&nbsp;; chaque agent a son profil, son salon Discord et un modèle
+                    choisi pour sa tâche, souvent un modèle peu coûteux. Chaque phase écrit son fichier avant la suivante.
+                  </p>
+                  <div class="proof proof--pink">
+                    <p class="proof__h">Contrôle des faits par script</p>
+                    <p><code>verifier_idees.py</code> confronte chaque source citée aux données réellement collectées.</p>
+                    <p><code>lint_script.py</code> bloque un script avant la voix&nbsp;: chiffre absent des sources, phrase trop longue, accroche de plus de 14 mots.</p>
+                  </div>
+                  <a class="link" href="#agents">Voir le réseau en 3D ↓</a>
+                </div>
+                <figure class="screen">
+                  <div class="screen__frame">
+                    <video class="clip" muted playsinline loop preload="none" poster="./media/clip-hermes.webp" data-src="./media/clip-hermes.mp4" aria-label="Extrait muet de la vidéo KIWIBYTE consacrée à Hermes Agent"></video>
+                  </div>
+                  <figcaption class="figcap">Extrait de la vidéo KIWIBYTE consacrée à Hermes Agent, sans le son.</figcaption>
+                </figure>
+              </div>
+            </article>
+
+            <!-- P3 -->
+            <article class="panel panel--3" aria-labelledby="p3-title">
+              <div class="panel__grid">
+                <div class="panel__text">
+                  <p class="tag"><span class="tag__n">03</span> Voix</p>
+                  <h3 id="p3-title" class="panel__title">VoiceStudio, la voix clonée en local</h3>
+                  <p class="panel__lede">
+                    Les voix off sont générées sur ma machine avec
+                    <a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener noreferrer">VoiceStudio</a>,
+                    une application open source (AGPL-3.0) de clonage vocal, appelée par son API locale.
+                  </p>
+                  <p class="panel__note">
+                    Le texte est synthétisé phrase par phrase, puis réassemblé avec des silences calibrés. Chaque scène reçoit
+                    un fichier de minutage pour caler les animations sur la voix.
+                  </p>
+                </div>
+                <div class="voice">
+                  <div class="wave" aria-hidden="true"></div>
+                  <table class="pauses">
+                    <caption class="figcap">Pauses insérées par <code>tts.py</code></caption>
+                    <thead><tr><th scope="col">Fin de…</th><th scope="col">Silence</th></tr></thead>
+                    <tbody>
+                      <tr><td><code>.</code> phrase</td><td>0,45&nbsp;s</td></tr>
+                      <tr><td><code>?</code> <code>!</code> question, exclamation</td><td>0,55&nbsp;s</td></tr>
+                      <tr><td><code>:</code> <code>;</code> deux-points</td><td>0,30&nbsp;s</td></tr>
+                      <tr><td>paragraphe</td><td>0,90&nbsp;s</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </article>
+
+            <!-- P4 -->
+            <article class="panel panel--4" aria-labelledby="p4-title">
+              <div class="panel__grid panel__grid--rev">
+                <div class="panel__text">
+                  <p class="tag"><span class="tag__n">04</span> Veille</p>
+                  <h3 id="p4-title" class="panel__title">Le Top 10 GitHub, chaque matin</h3>
+                  <p class="panel__lede">
+                    Un collecteur lit les tendances réelles (GitHub Trending et API GitHub, Hacker News, Hugging Face, arXiv,
+                    Lobsters, dev.to) et garde l'URL et la date de lecture de chaque valeur. La veille tourne seule à 7&nbsp;h.
+                  </p>
+                </div>
+                <div class="term" role="img" aria-label="Commandes de la veille : collecte, Top 10, vérification des idées">
+                  <p class="term__bar"><span></span><span></span><span></span>veille</p>
+                  <pre class="term__body"><span class="term__p">$</span> python veille_collect.py
+<span class="term__c"># GitHub, Hacker News, Hugging Face, arXiv…</span>
+<span class="term__p">$</span> python veille_top10.py
+<span class="term__c"># classement = étoiles gagnées sur la période,</span>
+<span class="term__c"># jamais de mémoire</span>
+<span class="term__p">$</span> python verifier_idees.py &lt;date&gt;
+<span class="term__k">✓</span> idée gardée si toutes ses sources
+  sont confirmées<span class="term__cur"></span></pre>
+                </div>
+              </div>
+            </article>
+
+            <!-- P5 -->
+            <article class="panel panel--5" aria-labelledby="p5-title">
+              <div class="panel__grid">
+                <div class="panel__text">
+                  <p class="tag"><span class="tag__n">05</span> Sites web · en cours</p>
+                  <h3 id="p5-title" class="panel__title">Des sites rapides, sans traceur</h3>
+                </div>
+                <ul class="sites">
+                  <li>
+                    <p class="sites__name">KIWIBYTE Studio</p>
+                    <p>Page d'accueil statique pour des vidéos publicitaires courtes produites avec l'I.A. En construction.</p>
+                  </li>
+                  <li>
+                    <p class="sites__name">Ce portfolio</p>
+                    <p>Vite, Three.js et shaders GLSL écrits à la main, GSAP, Lenis. 100&nbsp;% statique, aucune requête vers un tiers, politique de sécurité stricte.</p>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 AGENTS -->
+      <section id="agents" class="agents" data-index="04" aria-labelledby="agents-title">
+        <div class="agents__stage">
+          <div class="agents__head">
+            <p class="label">Le fonctionnement des agents</p>
+            <h2 id="agents-title" class="h2">Au centre, l'orchestrateur. Autour, la chaîne.</h2>
+            <p class="agents__hint">Faites défiler pour suivre une vidéo de phase en phase, ou choisissez un agent.</p>
+          </div>
+          <ul class="nodes" aria-label="Agents du système"></ul>
+          <div class="detail" aria-live="polite">
+            <p class="detail__phase tag"></p>
+            <p class="detail__name"></p>
+            <p class="detail__role"></p>
+            <dl class="detail__meta">
+              <div><dt>Modèle</dt><dd class="detail__model"></dd></div>
+              <div><dt>Produit</dt><dd class="detail__out"></dd></div>
+            </dl>
+          </div>
+          <div class="agents__progress" aria-hidden="true"><span></span></div>
+        </div>
+      </section>
+
+      <!-- 05 OUTILS -->
+      <section id="outils" class="tools" data-index="05" aria-labelledby="tools-title">
+        <div class="tools__inner">
+          <p class="label">Outils</p>
+          <h2 id="tools-title" class="h2 split">Ce qui tourne <em class="accent">vraiment.</em></h2>
+          <div class="tools__cols">
+            <div>
+              <p class="tools__h">Pour produire</p>
+              <ul class="rows">
+                <li><span class="rows__name">Hermes Agent</span><span class="rows__what">profils d'agents, délégation</span></li>
+                <li><span class="rows__name">HyperFrames</span><span class="rows__what">rendu vidéo à partir de scènes HTML</span></li>
+                <li><span class="rows__name">VoiceStudio</span><span class="rows__what">voix off clonée, en local</span></li>
+                <li><span class="rows__name">Python</span><span class="rows__what">collecte, contrôles, assemblage</span></li>
+                <li><span class="rows__name">ffmpeg</span><span class="rows__what">montage, mixage, extraits</span></li>
+                <li><span class="rows__name">GitHub API</span><span class="rows__what">données de veille via <code>gh</code></span></li>
+                <li><span class="rows__name">Discord</span><span class="rows__what">un salon par phase</span></li>
+                <li><span class="rows__name">Obsidian</span><span class="rows__what">mémoire partagée des agents</span></li>
+              </ul>
+            </div>
+            <div>
+              <p class="tools__h">Pour ce site</p>
+              <ul class="rows">
+                <li><span class="rows__name">Three.js + GLSL</span><span class="rows__what">particules et shaders maison</span></li>
+                <li><span class="rows__name">GSAP</span><span class="rows__what">ScrollTrigger, transitions</span></li>
+                <li><span class="rows__name">Lenis</span><span class="rows__what">défilement fluide</span></li>
+                <li><span class="rows__name">Vite + TypeScript</span><span class="rows__what">build statique</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 06 CONTACT -->
+      <section id="contact" class="contact" data-index="06" aria-labelledby="contact-title">
+        <div class="contact__inner">
+          <p class="label">Contact</p>
+          <h2 id="contact-title" class="contact__title split">Le code et les vidéos sont <em class="accent">publics.</em></h2>
+          <ul class="contact__links">
+            <li><a class="big" href="https://github.com/yaskaa-lgtm" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span class="big__sub">github.com/yaskaa-lgtm</span><span class="big__arrow" aria-hidden="true">↗</span></a></li>
+            <li><a class="big" href="https://www.youtube.com/results?search_query=KIWIBYTE" target="_blank" rel="noopener noreferrer"><span>YouTube</span><span class="big__sub">rechercher KIWIBYTE</span><span class="big__arrow" aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+        <footer class="foot">
+          <p>© 2026 Captox · KIWIBYTE</p>
+          <p>Site statique, sans cookie ni traceur. Police Montserrat (<a href="./OFL-Montserrat.txt">licence OFL</a>).</p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
